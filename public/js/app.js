@@ -22918,6 +22918,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+<<<<<<< HEAD
+=======
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -22966,6 +22968,7 @@ app.mount('#app');
 
 /***/ }),
 
+>>>>>>> master
 /***/ "./resources/js/router/index.js":
 /*!**************************************!*\
   !*** ./resources/js/router/index.js ***!
@@ -23168,6 +23171,8 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
+<<<<<<< HEAD
+=======
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
@@ -23181,6 +23186,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+>>>>>>> master
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -28202,6 +28208,9 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","de
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+<<<<<<< HEAD
+/************************************************************************/
+=======
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
@@ -28238,6 +28247,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","de
 /******/ 		};
 /******/ 	})();
 /******/ 	
+>>>>>>> master
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -28290,6 +28300,8 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","de
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
+=======
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -28344,12 +28356,62 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","de
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
+>>>>>>> master
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
+<<<<<<< HEAD
+var __webpack_exports__ = {};
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
+(() => {
+"use strict";
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue */ "./resources/js/App.vue");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./router */ "./resources/js/router/index.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/js/bootstrap.bundle.min */ "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js");
+/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle_min__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_MeetingRoomBooking_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/MeetingRoomBooking.vue */ "./resources/js/components/MeetingRoomBooking.vue");
+/* harmony import */ var _components_MyBookings_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/MyBookings.vue */ "./resources/js/components/MyBookings.vue");
+// Import Vue's createApp function
+
+
+// Import the root App component
+
+
+// Import the router configuration
+
+
+// Import Bootstrap for styling
+
+
+
+// Import your MeetingRoomBooking component
+
+
+
+// Create the Vue app instance
+var app = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)(_App_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
+// Register the MeetingRoomBooking component globally
+app.component('meeting-room-booking', _components_MeetingRoomBooking_vue__WEBPACK_IMPORTED_MODULE_5__["default"]);
+app.component('my-booking', _components_MyBookings_vue__WEBPACK_IMPORTED_MODULE_6__["default"]);
+
+// Tell Vue to use Vue Router
+app.use(_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
+
+// Mount the Vue app to the DOM element with the ID of "app"
+app.mount('#app');
+})();
+
+=======
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
@@ -28358,5 +28420,6 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","de
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
+>>>>>>> master
 /******/ })()
 ;
