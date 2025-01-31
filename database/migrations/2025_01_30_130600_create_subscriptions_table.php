@@ -15,6 +15,7 @@ class CreateSubscriptionsTable extends Migration
     {
         Schema::create('subscriptions', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id');
             $table->string('plan_name');
             $table->integer('max_bookings_per_day');
             $table->timestamps();
